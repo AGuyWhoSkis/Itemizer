@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Itemizer.jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Itemizer_jar</output-path>
+    <root id="archive" name="Itemizer.jar.jar">
+      <element id="file-copy" path="$USER_HOME$/Desktop/Eclipse/External Jars/spigot-1.8-R0.1-SNAPSHOT.jar" />
+    </root>
+  </artifact>
+</component>

@@ -1,6 +1,11 @@
 package co.technius.itemizer;
 
-import net.minecraft.server.v1_8_R1.*;
+import net.minecraft.server.v1_8_R1.NBTTagList;
+import net.minecraft.server.v1_8_R1.NBTTagCompound;
+import net.minecraft.server.v1_8_R1.NBTTagString;
+import net.minecraft.server.v1_8_R1.NBTTagLong;
+import net.minecraft.server.v1_8_R1.NBTTagInt;
+import net.minecraft.server.v1_8_R1.NBTTagDouble;
 import org.bukkit.ChatColor;
 import org.bukkit.Material;
 import org.bukkit.command.Command;
@@ -635,7 +640,7 @@ public class ItemizerPlugin extends JavaPlugin {
         if(attrmod == null) {
             tag.set("AttributeModifiers", new NBTTagList());
         }
-        
+
         nms.setTag(tag);
         
         return tag.getList("AttributeModifiers", 10);
